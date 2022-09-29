@@ -22,3 +22,9 @@ function multiplesOfThreeOrFive(){
 }
 console.log(multiplesOfThreeOrFive())
 
+function untilNum(int){
+    for(let i = 0; i <= int; i++){
+        console.log(i)
+    }
+}
+untilNum(4)
