@@ -12,15 +12,7 @@ function multiplesOfThree(){
         console.log(i);
     }
 }
-/*
-multiplesOfThree();
-/*
-function multiplesOfThreeOrFive(){
-    for(let i = 3; i <= 100; i += 3){
-        console.log(i);
-    }
-}
-*/
+
 function multiplesOfThreeOrFive(){
     for(let i = 0; i <= 100; i ++){
         if( i % 3 == 0 || i % 5 == 0){
@@ -29,3 +21,4 @@ function multiplesOfThreeOrFive(){
     }
 }
 console.log(multiplesOfThreeOrFive())
+
